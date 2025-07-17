@@ -1,0 +1,33 @@
+{
+  "name": "typeh",
+  "version": "1.0.0",
+  "description": "A lightweight JS utility for advanced type detection, validation, and enforcement.",
+  "main": "lib/typeh.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqrony/typeh.git"
+  },
+  "keywords": [
+    "typeh",
+    "datatype",
+    "type-detection",
+    "type-validation",
+    "coercion",
+    "javascript"
+  ],
+  "author": {
+    "name": "Indian Modassir",
+    "email": "indianmodassir@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jqrony/typeh/issues"
+  },
+  "homepage": "https://github.com/jqrony/typeh#readme"
+}
