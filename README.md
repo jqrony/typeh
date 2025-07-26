@@ -137,16 +137,16 @@ function select(selector, context, results, isSelf) {
 **How To Check Primitive Type**
 
 ```js
-toType(/^[a-z]/);      // Output: regexp
-toType(new Date);      // Output: date
-toType('Hello');       // Output: string
-toType(123);           // Output: number
-toType(true);          // Output: boolean
-toType(() => {});      // Output: function
-toType([]);            // Output: array
-toType({});            // Output: object
-toType(new Error());   // Output: error
-toType(Symbol('Foo')); // Output: symbol
+isType(/^[a-z]/);      // Output: regexp
+isType(new Date);      // Output: date
+isType('Hello');       // Output: string
+isType(123);           // Output: number
+isType(true);          // Output: boolean
+isType(() => {});      // Output: function
+isType([]);            // Output: array
+isType({});            // Output: object
+isType(new Error());   // Output: error
+isType(Symbol('Foo')); // Output: symbol
 ```
 
 **Check To Object Type**
